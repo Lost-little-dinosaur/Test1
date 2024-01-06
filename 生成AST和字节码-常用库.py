@@ -41,7 +41,6 @@ def main():
     root_1_path = "常用库"
     # project_path = "Test"
     new_root_1_path = root_1_path + "-ast-dis"
-    new_root_2_path = ""
     record_msg = ""
     error_msg = ""
     for i in range(len(os.listdir(root_1_path))):

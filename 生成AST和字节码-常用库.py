@@ -39,7 +39,6 @@ def processDir(root_1_path, root_2_path, project_path, new_root_1_path, new_root
 def main():
     # basePath = "常用库\\Web框架\\bottle"
     root_1_path = "常用库"
-    root_2_path = ""
     # project_path = "Test"
     new_root_1_path = root_1_path + "-ast-dis"
     new_root_2_path = ""

@@ -38,7 +38,6 @@ def processDir(root_1_path, root_2_path, project_path, new_root_1_path, new_root
 
 def main():
     root_1_path = "常用库"
-    # project_path = "Test"
     new_root_1_path = root_1_path + "-ast-dis"
     record_msg = ""
     error_msg = ""
@@ -54,7 +53,7 @@ def main():
     # processDir(root_1_path, root_2_path, project_path, new_root_1_path, new_root_2_path)
     with open("record-" + root_1_path + ".txt", "w", encoding="utf8") as f:
         f.write(record_msg)
-        f.write("\n-------------------------\n")
+        f.write("\n-----------------------\n")
         f.write(error_msg)
 
 

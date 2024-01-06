@@ -61,8 +61,6 @@ def main():
         f.write(error_msg)
 
 
-# 测试（其实吧）
-
 if __name__ == '__main__':
     main()
     # print(os.listdir("./"))
